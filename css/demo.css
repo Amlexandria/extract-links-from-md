@@ -1,7 +1,7 @@
 nav {
     position: fixed;
     background-color:rgba(153, 0, 102, .5);
-    height: 6rem;
+    height: 5rem;
     z-index: 100;
     /* opacity: 0.2; */
 }
@@ -14,7 +14,7 @@ nav a.brand-logo {
 
 nav #logo {
     margin-bottom: 1rem;
-    margin-top: 1rem;
+    margin-top: .5rem;
 }
 
 .parallax-container {
