@@ -4,11 +4,24 @@ Módulo de Node.js que recibe un string (en formato Markdown) y extrae todos los
 ***
 Visita el demo en [https://lorevazquez.github.io/extract-links-from-md](https://lorevazquez.github.io/extract-links-from-md)
 
+
+![screenshot](assets/images/resultado.PNG)
+
+## Proyecto desarrollado en [Laboratoria](http://laboratoria.la)
+
+
+![icon](assets/images/node.png) ![icon](assets/images/npm-logo.png) ![icon](assets/images/mocha.png) ![icon](assets/images/babel.png)
+
+## En  [México]
+
+---
 ## Instalación
 
 ![Comando de instalacion](assets/images/npm.PNG)
 
 ## Uso
+
+### Ejemplo #1
 
 ![Comando de instalacion](assets/images/usage.PNG)
 
@@ -26,6 +39,17 @@ const links = fs.readFileSync('file.md').toString();
 console.log(glinkMD(links))
 
 ```
+
+### Ejemplo #2
+
+![Comando de instalacion](assets/images/usage-browser.PNG)
+
+Se agrega la siguiente línea de código, para que se pueda hacer uso de la función.
+
+```js
+<script src="node_modules/glinks-md/lib/extract-link-from-md.js"></script>
+```
+
 
 Ejemplo contenido de archivo MD:
 
@@ -54,6 +78,9 @@ Resultado:
   { href: 'http://foo.com', text: 'foo' },
 ]
 ```
+---
+![](assets/images/)
+---
 ## Desarrolladoras
 
 Ambar de Alejandría & 
